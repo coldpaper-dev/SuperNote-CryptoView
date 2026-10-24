@@ -24,7 +24,7 @@ The screenshots come from a real portfolio.
 ## First opening
 
 Download CryptoView from InkHub. Or copy `CryptoView-x.y.z.snplg`, from the
-[releases](https://github.com/coldpaper-dev/Supernote-CryptoView/releases),
+[releases](https://github.com/coldpaper-dev/SuperNote-CryptoView/releases),
 to the `MyStyle` folder of the Supernote and install it from Settings > Apps >
 Plugins. Open it from a note.
 

@@ -3,7 +3,7 @@
  * are only shown: the plugin never reads them.
  */
 export const HELP_URL =
-  'https://github.com/coldpaper-dev/Supernote-CryptoView/issues';
+  'https://github.com/coldpaper-dev/SuperNote-CryptoView/issues';
 
 export interface Tip {
   label: string;

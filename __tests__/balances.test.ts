@@ -470,7 +470,7 @@ describe('the support page', () => {
     // The README gives the same ones.
     const readme = require('fs').readFileSync(`${__dirname}/../README.md`, 'utf8');
     TIPS.forEach(tip => expect(readme).toContain(`\`${tip.address}\``));
-    expect(HELP_URL).toMatch(/^https:\/\/github\.com\/coldpaper-dev\/Supernote-CryptoView\//);
+    expect(HELP_URL).toMatch(/^https:\/\/github\.com\/coldpaper-dev\/SuperNote-CryptoView\//);
   });
 });
 

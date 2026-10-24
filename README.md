@@ -15,7 +15,7 @@ screenshots.
 
 Download CryptoView from InkHub. Or download `CryptoView-<version>.snplg`
 from the
-[releases](https://github.com/coldpaper-dev/Supernote-CryptoView/releases),
+[releases](https://github.com/coldpaper-dev/SuperNote-CryptoView/releases),
 copy it to the `MyStyle` folder of the Supernote, and install it from
 Settings > Apps > Plugins. To upgrade, install the new version over the old
 one: your data is kept. Right after an upgrade, give the Supernote a few
@@ -283,7 +283,7 @@ QR codes are made on the Supernote with `qrcode-generator` (MIT).
 
 CryptoView is fully open source (MIT license): anyone can read and audit its
 code. A question, a bug, or something you would like CryptoView to do? Open an
-issue: https://github.com/coldpaper-dev/Supernote-CryptoView/issues. Pull
+issue: https://github.com/coldpaper-dev/SuperNote-CryptoView/issues. Pull
 requests to adapt or develop it are welcome.
 
 ## Support
