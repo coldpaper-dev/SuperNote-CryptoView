@@ -1,0 +1,16 @@
+{
+  "name": "CryptoView",
+  "desc": "CryptoView is a blockchain viewer. Give it your public addresses: it reads their balances on each chain, applies market prices, and shows your portfolio and its value.\n\nWallets: group your addresses by name, and add the balances the chains cannot tell, such as an exchange account, a position in a protocol or cash. Type what you paid for each coin to follow your PnL.\n\nIt is also a market data viewer: prices, changes, charts and facts for the coins you follow, from CoinGecko. Tools convert between coins and work out an average price or a liquidation price. Crypto news from three public feeds can be read in full on the Supernote.\n\nEvery view can be copied into your note with \"Copy to note\", to keep track of your crypto by hand. Each table shows the columns you choose.\n\nCryptoView doesn't hold any private key. It cannot sign, send or swap your crypto: it is NOT a wallet. It only interacts with publicly available data on the Internet.\n\nChains: Ethereum and other EVM chains, Hyperliquid, Bitcoin, Solana, NEAR, Injective, Fetch.ai, Cosmos Hub, Osmosis.\nTokens: on EVM chains and Solana, \"Find my tokens\" checks more than 25,000 listed tokens, and any other token can be added by its contract address. There is no limit.\n\nYour addresses, typed balances and prices paid can be exported to text files, filled in from a computer, and imported back.\n\nPermissions. You can refuse any of them:\n- Internet: to read balances, prices and news. Without it nothing new is read; the last figures stored are shown.\n- Read files: to import your addresses, balances and prices paid from text files. Without it, type them on the Supernote.\n- Write files: to export them, and for \"Copy to note\". Without it, both are unavailable.",
+  "iconPath": "assets/icon.png",
+  "versionName": "1.0.0",
+  "versionCode": "30",
+  "pluginID": "cryptoviewlocal1",
+  "pluginKey": "CryptoView",
+  "jsMainPath": "index",
+  "author": "coldpaper-dev",
+  "uses-permissions": [
+    "plugin.permission.INTERNET",
+    "plugin.permission.FILE:READ",
+    "plugin.permission.FILE:WRITE"
+  ]
+}
